@@ -56,3 +56,101 @@ sub delay {
 1;
 
 __END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Video::Delay::Array - Video::Delay class for predefined list of delays.
+
+=head1 SYNOPSIS
+
+ use Vide::Delay::Array;
+ my $delay = Video::Delay::Array->new(%parameters);
+ my $sec = $delay->delay;
+
+=head1 METHODS
+
+=over 8
+
+=item B<new(%parameters)>
+
+ Constructor
+
+=over 8
+
+=item * B<array>
+
+ Array of predefined delays.
+ Default value is [1, 2, 3].
+
+=item * B<loop>
+
+ Loop flag.
+ Default value is 1.
+
+=back
+
+=item B<delay()>
+
+ Returns delay from array defined by 'array' parameter in seconds.
+ Affected by 'loop' parameter.
+
+=back
+
+=head1 ERRORS
+
+ From Class::Utils::set_params():
+         Unknown parameter '%s'.
+
+=head1 EXAMPLE
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Video::Delay::Array;
+
+ # Object.
+ my $obj = Video::Delay::Array->new(
+         'array' => [1, 2],
+         'loop' => 1,
+ );
+
+ # Print delay.
+ print $obj->delay."\n";
+ print $obj->delay."\n";
+ print $obj->delay."\n";
+
+ # Output
+ # 1
+ # 2
+ # 1
+
+=head1 DEPENDENCIES
+
+L<Class::Utils>.
+
+=head1 SEE ALSO
+
+L<Video::Delay::Const>,
+L<Video::Delay::Func>.
+
+=head1 AUTHOR
+
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+BSD license.
+
+=head1 VERSION
+
+0.01
+
+=cut
