@@ -20,7 +20,7 @@ sub new {
 	my $self = bless {}, $class;
 
 	# Function.
-	$self->{'func'} = 'sin(t)';
+	$self->{'func'} = '1000 * sin(t)';
 
 	# Counter increment.
 	$self->{'incr'} = 0.1;

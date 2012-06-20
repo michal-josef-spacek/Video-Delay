@@ -18,7 +18,7 @@ sub new {
 	my $self = bless {}, $class;
 
 	# Array.
-	$self->{'array'} = [1, 2, 3];
+	$self->{'array'} = [1000, 2000, 3000];
 
 	# Loop.
 	$self->{'loop'} = 1;
@@ -83,8 +83,8 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
 
 =item * B<array>
 
- Array of predefined delays.
- Default value is [1, 2, 3].
+ Array of predefined delays in miliseconds.
+ Default value is [1000, 2000, 3000].
 
 =item * B<loop>
 
@@ -95,7 +95,7 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
 
 =item B<delay()>
 
- Returns delay from array defined by 'array' parameter in seconds.
+ Returns delay from array defined by 'array' parameter in miliseconds.
  Affected by 'loop' parameter.
 
 =back
@@ -116,7 +116,7 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
 
  # Object.
  my $obj = Video::Delay::Array->new(
-         'array' => [1, 2],
+         'array' => [1000, 2000],
          'loop' => 1,
  );
 
@@ -126,9 +126,9 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
  print $obj->delay."\n";
 
  # Output
- # 1
- # 2
- # 1
+ # 1000
+ # 2000
+ # 1000
 
 =head1 DEPENDENCIES
 

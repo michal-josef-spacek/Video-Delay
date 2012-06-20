@@ -18,7 +18,7 @@ sub new {
 	my $self = bless {}, $class;
 
 	# Constant.
-	$self->{'const'} = 1;
+	$self->{'const'} = 1000;
 
 	# Process params.
 	set_params($self, @params);
