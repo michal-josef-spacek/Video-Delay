@@ -137,7 +137,9 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 
 =head1 DEPENDENCIES
 
-L<Class::Utils>.
+L<Class::Utils>,
+L<English>,
+L<Error::Pure>.
 
 =head1 SEE ALSO
 
