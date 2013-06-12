@@ -68,7 +68,7 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 
 =head1 SYNOPSIS
 
- use Vide::Delay::Func;
+ use Video::Delay::Func;
  my $delay = Video::Delay::Func->new(%parameters);
  my $sec = $delay->delay;
 
@@ -130,7 +130,7 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
  print $obj->delay."\n";
  print $obj->delay."\n";
 
- # Output
+ # Output:
  # 99.8334166468282
  # 198.669330795061
  # 295.52020666134
