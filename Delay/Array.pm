@@ -68,8 +68,8 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
 =head1 SYNOPSIS
 
  use Video::Delay::Array;
- my $delay = Video::Delay::Array->new(%parameters);
- my $sec = $delay->delay;
+ my $obj = Video::Delay::Array->new(%parameters);
+ my $delay = $obj->delay;
 
 =head1 METHODS
 

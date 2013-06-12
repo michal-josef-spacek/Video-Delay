@@ -48,8 +48,8 @@ Video::Delay::Const - Video::Delay class for constant delay.
 =head1 SYNOPSIS
 
  use Video::Delay::Const;
- my $delay = Video::Delay::Const->new(%parameters);
- my $sec = $delay->delay;
+ my $obj = Video::Delay::Const->new(%parameters);
+ my $delay = $obj->delay;
 
 =head1 METHODS
 
