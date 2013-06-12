@@ -67,7 +67,7 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
 
 =head1 SYNOPSIS
 
- use Vide::Delay::Array;
+ use Video::Delay::Array;
  my $delay = Video::Delay::Array->new(%parameters);
  my $sec = $delay->delay;
 
@@ -125,7 +125,7 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
  print $obj->delay."\n";
  print $obj->delay."\n";
 
- # Output
+ # Output:
  # 1000
  # 2000
  # 1000
