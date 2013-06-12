@@ -36,3 +36,94 @@ sub delay {
 1;
 
 __END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Video::Delay::Const - Video::Delay class for constant delay.
+
+=head1 SYNOPSIS
+
+ use Video::Delay::Const;
+ my $delay = Video::Delay::Const->new(%parameters);
+ my $sec = $delay->delay;
+
+=head1 METHODS
+
+=over 8
+
+=item B<new(%parameters)>
+
+ Constructor
+
+=over 8
+
+=item * B<const>
+
+ Constant delay in miliseconds.
+ Default value is 1000.
+
+=back
+
+=item B<delay()>
+
+ Returns constant delay defined by 'const' parameter in miliseconds.
+
+=back
+
+=head1 ERRORS
+
+ From Class::Utils::set_params():
+         Unknown parameter '%s'.
+
+=head1 EXAMPLE
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use Video::Delay::Const;
+
+ # Object.
+ my $obj = Video::Delay::Const->new(
+         'const' => 1000,
+ );
+
+ # Print delay.
+ print $obj->delay."\n";
+ print $obj->delay."\n";
+ print $obj->delay."\n";
+
+ # Output:
+ # 1000
+ # 1000
+ # 1000
+
+=head1 DEPENDENCIES
+
+L<Class::Utils>.
+
+=head1 SEE ALSO
+
+L<Video::Delay::Array>,
+L<Video::Delay::Func>.
+
+=head1 AUTHOR
+
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+BSD license.
+
+=head1 VERSION
+
+0.01
+
+=cut
