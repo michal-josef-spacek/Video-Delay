@@ -1,0 +1,58 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 4b28679288d40c9a4fee4261f183d2ba2bd89fef Changes
+SHA1 6b0c80307473c65fa812990ff1f22d4e46d7913d Delay/Array.pm
+SHA1 c5e3878820d264684898241978bd2790bfe7ddfd Delay/Const.pm
+SHA1 fb5fee87535a4eed9ba5403c5e254355b6b34d4b Delay/Func.pm
+SHA1 20da84a9de04e36340ee636da706091e9440b391 LICENSE
+SHA1 2ce508aec5c5ea3e167d5d169c57eca63ef3a958 MANIFEST
+SHA1 c4c48e7d1d326e0672cf2fed7a2da7dbb0ee4d90 META.yml
+SHA1 a28164df5bcc82937249f1d025d357b5e00847db Makefile.PL
+SHA1 fe77a37a7ef766045791b60206d3b406756c87eb examples/ex1.pl
+SHA1 5d7f1337df15998936aa3f63e462710ba23c6c03 examples/ex2.pl
+SHA1 85913415eb667c8a5d3f6caa93afcf1c9781c881 examples/ex3.pl
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 1029d0ca977fccd0db9813aaa0115a05b0d490ff t/Video-Delay-Array/00-use.t
+SHA1 d65ae1640c68acb157c9e66a822ebdf0fc80910c t/Video-Delay-Array/01-version.t
+SHA1 99e6c854a5de98f25e77ffbe1ef2249005b55d3d t/Video-Delay-Array/02-pod_coverage.t
+SHA1 c78c55e48c6b6e4fe4478ce9bc029cbcf3ce4a99 t/Video-Delay-Array/03-pod.t
+SHA1 e4c7ce5d2d2412aeb8ff00eb902cdd8f5ddd7809 t/Video-Delay-Const/00-use.t
+SHA1 f1e426ea2319d157f2e9798937cf788ec2ab8450 t/Video-Delay-Const/01-version.t
+SHA1 e858744d7f5232ae41436cc64a0a19e9f0f2a4b1 t/Video-Delay-Const/02-pod_coverage.t
+SHA1 c0b6af3494e0d9cac7065ef701d5ba0f09950b4e t/Video-Delay-Const/03-pod.t
+SHA1 c7cc75007b9bad2fdef530df27f91ad77bd037ad t/Video-Delay-Func/00-use.t
+SHA1 6bcc343fc0789da35797a756d059704b0d211fad t/Video-Delay-Func/01-version.t
+SHA1 3bfd1e9ae19d12801839eed391e1e2695ed36ac7 t/Video-Delay-Func/02-pod_coverage.t
+SHA1 1d7ad579f238e46b97da8a1436dbfaeb5f8bd0db t/Video-Delay-Func/03-pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJUUzKhAAoJEAwa+cf4dLBa64EH/iB4xNPBFJs7oH9gJppKudFv
+d8TjkSpXtN54hTXeQl2phPKdXVZYKFge3BZxq/qcsMBVynDjCJMwMLum0t8uyiXs
+9YizpIQPRJqqMIK90DMqu8p3ScQJrsHZuZoq9yp0o+rY6sJJOgoJ//f9iefZWhjU
+L5fjLHdpTknWXRpYqelTow1iYoq+UMgAUK86Y0f/rAKZkK35rFovLjr9qromDcKy
+y9mTFn1GEemdnU8XTVQqQXi/Uqmsg2it69s/GWAFejyvR5T1qwqEGRpw4ATkK7yJ
+GC09H2ebpf/539POHKD8eFOUw5RSVnpL4FPo5Kc2I0JFZH4I7/rwZm62eqOXGyQ=
+=Zgaz
+-----END PGP SIGNATURE-----

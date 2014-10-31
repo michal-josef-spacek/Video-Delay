@@ -1,7 +1,6 @@
 TODO
 ====
 3. Pridat Delay.pm tridu pro dokumentaci.
-4. Pridat SIGNATURE file.
 5. Pridat README.
 6. Pridat testy.
 8.
@@ -17,3 +16,6 @@ OK [20130612] skim
 7. Pridat Delay.pm.
 Duplicitni s 1)
 NONE [20141031] skim
+
+4. Pridat SIGNATURE file.
+OK [20141031] skim
