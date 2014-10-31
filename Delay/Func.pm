@@ -48,7 +48,7 @@ sub delay {
 	# Eval.
 	my $ret = eval $input;
 	if ($EVAL_ERROR) {
-		err 'Eval error', 'Error', $EVAL_ERROR;
+		err 'Error in function', 'Error', $EVAL_ERROR;
 	}
 
 	return $ret;
@@ -108,7 +108,7 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
                  Unknown parameter '%s'.
 
  delay():
-         Eval error
+         Error in function
                  Error, %s
 
 =head1 EXAMPLE
