@@ -76,8 +76,9 @@ Video::Delay::Const - Video::Delay class for constant delay.
 
 =head1 ERRORS
 
- From Class::Utils::set_params():
-         Unknown parameter '%s'.
+ new():
+         From Class::Utils::set_params():
+                 Unknown parameter '%s'.
 
 =head1 EXAMPLE
 

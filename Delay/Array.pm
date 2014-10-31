@@ -102,8 +102,9 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
 
 =head1 ERRORS
 
- From Class::Utils::set_params():
-         Unknown parameter '%s'.
+ new():
+         From Class::Utils::set_params():
+                 Unknown parameter '%s'.
 
 =head1 EXAMPLE
 

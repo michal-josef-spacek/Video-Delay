@@ -103,12 +103,13 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 
 =head1 ERRORS
 
- Mine:
+ new():
+         From Class::Utils::set_params():
+                 Unknown parameter '%s'.
+
+ delay():
          Eval error
                  Error, %s
-
- From Class::Utils::set_params():
-         Unknown parameter '%s'.
 
 =head1 EXAMPLE
 
