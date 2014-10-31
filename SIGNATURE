@@ -14,14 +14,16 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 4b28679288d40c9a4fee4261f183d2ba2bd89fef Changes
-SHA1 6b0c80307473c65fa812990ff1f22d4e46d7913d Delay/Array.pm
-SHA1 c5e3878820d264684898241978bd2790bfe7ddfd Delay/Const.pm
-SHA1 fb5fee87535a4eed9ba5403c5e254355b6b34d4b Delay/Func.pm
+SHA1 65b1ebaf8922ec459fc17dcd247d9de4bf50f13f Changes
+SHA1 7d906c91861367e0b423ca90d661435e0e23694d Delay.pm
+SHA1 509cbcae9ecf07871fd4e4b1e9b177c1b20a344f Delay/Array.pm
+SHA1 05508477885aafe5ddbd97700cc6c78121b5201f Delay/Const.pm
+SHA1 dcc026cad13f89ff0c591af455b78ca4f2f426f5 Delay/Func.pm
 SHA1 20da84a9de04e36340ee636da706091e9440b391 LICENSE
-SHA1 2ce508aec5c5ea3e167d5d169c57eca63ef3a958 MANIFEST
-SHA1 c4c48e7d1d326e0672cf2fed7a2da7dbb0ee4d90 META.yml
-SHA1 a28164df5bcc82937249f1d025d357b5e00847db Makefile.PL
+SHA1 b6d32f06acd60930228962734d8189eee561bb43 MANIFEST
+SHA1 6bf93c9110216cc5d113cbe6146e46fa0d3ed9f1 META.yml
+SHA1 51838538b635ed23f8f026931eb4337ceafc0364 Makefile.PL
+SHA1 917c53ce40d574a35220101bc4e5a4227b312867 README
 SHA1 fe77a37a7ef766045791b60206d3b406756c87eb examples/ex1.pl
 SHA1 5d7f1337df15998936aa3f63e462710ba23c6c03 examples/ex2.pl
 SHA1 85913415eb667c8a5d3f6caa93afcf1c9781c881 examples/ex3.pl
@@ -31,28 +33,33 @@ SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
 SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
 SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
 SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
 SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
 SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
 SHA1 1029d0ca977fccd0db9813aaa0115a05b0d490ff t/Video-Delay-Array/00-use.t
-SHA1 d65ae1640c68acb157c9e66a822ebdf0fc80910c t/Video-Delay-Array/01-version.t
+SHA1 679271f0688b2703c88f3bd438c825bb0c38d083 t/Video-Delay-Array/01-version.t
 SHA1 99e6c854a5de98f25e77ffbe1ef2249005b55d3d t/Video-Delay-Array/02-pod_coverage.t
 SHA1 c78c55e48c6b6e4fe4478ce9bc029cbcf3ce4a99 t/Video-Delay-Array/03-pod.t
 SHA1 e4c7ce5d2d2412aeb8ff00eb902cdd8f5ddd7809 t/Video-Delay-Const/00-use.t
-SHA1 f1e426ea2319d157f2e9798937cf788ec2ab8450 t/Video-Delay-Const/01-version.t
+SHA1 7be83bdc73e96b28a68a3c656772b89f4f30cccc t/Video-Delay-Const/01-version.t
 SHA1 e858744d7f5232ae41436cc64a0a19e9f0f2a4b1 t/Video-Delay-Const/02-pod_coverage.t
 SHA1 c0b6af3494e0d9cac7065ef701d5ba0f09950b4e t/Video-Delay-Const/03-pod.t
 SHA1 c7cc75007b9bad2fdef530df27f91ad77bd037ad t/Video-Delay-Func/00-use.t
-SHA1 6bcc343fc0789da35797a756d059704b0d211fad t/Video-Delay-Func/01-version.t
+SHA1 7992334f3fe8b27b1d1c12ceaab78fef480b3d3a t/Video-Delay-Func/01-version.t
 SHA1 3bfd1e9ae19d12801839eed391e1e2695ed36ac7 t/Video-Delay-Func/02-pod_coverage.t
 SHA1 1d7ad579f238e46b97da8a1436dbfaeb5f8bd0db t/Video-Delay-Func/03-pod.t
+SHA1 42ee615ff563d3e86de869674ea42df894284d7c t/Video-Delay/00-use.t
+SHA1 d9071df936169f979e8984cf822e5240f9a49bc7 t/Video-Delay/01-version.t
+SHA1 2c7f3f8fd6a9056b7ad169f06434f0440a1f82ce t/Video-Delay/02-pod_coverage.t
+SHA1 9b8c23bdf7e13b8618e053e10d5b1e61c08b0851 t/Video-Delay/03-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJUUzKhAAoJEAwa+cf4dLBa64EH/iB4xNPBFJs7oH9gJppKudFv
-d8TjkSpXtN54hTXeQl2phPKdXVZYKFge3BZxq/qcsMBVynDjCJMwMLum0t8uyiXs
-9YizpIQPRJqqMIK90DMqu8p3ScQJrsHZuZoq9yp0o+rY6sJJOgoJ//f9iefZWhjU
-L5fjLHdpTknWXRpYqelTow1iYoq+UMgAUK86Y0f/rAKZkK35rFovLjr9qromDcKy
-y9mTFn1GEemdnU8XTVQqQXi/Uqmsg2it69s/GWAFejyvR5T1qwqEGRpw4ATkK7yJ
-GC09H2ebpf/539POHKD8eFOUw5RSVnpL4FPo5Kc2I0JFZH4I7/rwZm62eqOXGyQ=
-=Zgaz
+iQEcBAEBAgAGBQJUUzR0AAoJEAwa+cf4dLBaAaAIAMsGIUapZ+NNY4ln1XigKLRx
+M9QXMp+Wa5Iz7qXAj04Mw5ziQBG/fY2J9zy40/ltIw8Hsn8DeRz2G6r/dg/8WJpm
+gq7ZMdEZWAjfxUfoaeN557Jmb++EPjlsfHoYP5Cb5xCKcgqKNWWrAkB7b5JH5dLr
+XmBg3XQ3DCMtpUHfbb330jyQNY5a+6np5pEEfpT1T1muKKNW+wDaUNbSgYGAMG0C
+kfckZkugc7Qh8k3+4y+scC2cIeV20UUQr7GvPIdYVb+mmyYJFHvxbecZaCIf1/Ra
+ZxbYy0z1brFZ65zERH1vOPpe48mmhWhnCU4tWIH7meUpnQIcJosfu9xTyO1dTwQ=
+=6Ytx
 -----END PGP SIGNATURE-----
