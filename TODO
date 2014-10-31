@@ -4,7 +4,6 @@ TODO
 4. Pridat SIGNATURE file.
 5. Pridat README.
 6. Pridat testy.
-7. Pridat Delay.pm.
 8.
 
 Applied
@@ -14,3 +13,7 @@ OK [20120620] skim
 
 1. Dokumentace pro Video::Delay::Const
 OK [20130612] skim
+
+7. Pridat Delay.pm.
+Duplicitni s 1)
+NONE [20141031] skim
