@@ -55,20 +55,20 @@ Video::Delay::Const - Video::Delay class for constant delay.
 
 =over 8
 
-=item B<new(%parameters)>
+=item C<new(%parameters)>
 
  Constructor
 
 =over 8
 
-=item * B<const>
+=item * C<const>
 
  Constant delay in miliseconds.
  Default value is 1000.
 
 =back
 
-=item B<delay()>
+=item C<delay()>
 
  Returns constant delay defined by 'const' parameter in miliseconds.
 

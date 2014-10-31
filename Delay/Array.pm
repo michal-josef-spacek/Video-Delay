@@ -75,25 +75,25 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
 
 =over 8
 
-=item B<new(%parameters)>
+=item C<new(%parameters)>
 
  Constructor
 
 =over 8
 
-=item * B<array>
+=item * C<array>
 
  Array of predefined delays in miliseconds.
  Default value is [1000, 2000, 3000].
 
-=item * B<loop>
+=item * C<loop>
 
  Loop flag.
  Default value is 1.
 
 =back
 
-=item B<delay()>
+=item C<delay()>
 
  Returns delay from array defined by 'array' parameter in miliseconds.
  Affected by 'loop' parameter.

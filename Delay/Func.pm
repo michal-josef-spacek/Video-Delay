@@ -76,25 +76,25 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 
 =over 8
 
-=item B<new(%parameters)>
+=item C<new(%parameters)>
 
  Constructor
 
 =over 8
 
-=item * B<func>
+=item * C<func>
 
  Math function. 't' is time variable.
  Default value is '1000 * sin(t)'.
 
-=item * B<incr>
+=item * C<incr>
 
  Counter increment.
  Default value is 0.1.
 
 =back
 
-=item B<delay()>
+=item C<delay()>
 
  Returns delay defined by function in miliseconds.
  Time si affected by 'incr' increment parameter.
