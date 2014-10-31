@@ -10,6 +10,7 @@ abstract 'Perl class for delays between frames generation.';
 author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Video-Delay';
+readme_from 'Delay.pm';
 requires 'Class::Utils' => 0.03;
 requires 'English' => 0;
 requires 'Error::Pure' => 0.11;
