@@ -113,6 +113,10 @@ L<Class::Utils>.
 L<Video::Delay::Array>,
 L<Video::Delay::Func>.
 
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/Video-Delay>
+
 =head1 AUTHOR
 
 Michal Špaček L<mailto:skim@cpan.org>

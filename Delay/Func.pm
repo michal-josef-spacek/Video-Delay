@@ -147,6 +147,10 @@ L<Error::Pure>.
 L<Video::Delay::Array>,
 L<Video::Delay::Const>.
 
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/Video-Delay>
+
 =head1 AUTHOR
 
 Michal Špaček L<mailto:skim@cpan.org>
