@@ -39,17 +39,26 @@ sub new {
 sub delay {
 	my $self = shift;
 
-	# Input.
+	# Counter.
 	$self->{'counter'} += $self->{'incr'};
-	my $input = $self->{'func'};
-	my $c = $self->{'counter'};
-	$input =~ s/t/$c/g;
 
-	# Eval.
-	my $ret = eval $input;
-	if ($EVAL_ERROR) {
-		err 'Error in function.',
-			'Error', $EVAL_ERROR;
+	# Function string.
+	my $ret;
+	if (ref $self->{'func'} eq '') {
+		my $input = $self->{'func'};
+		my $c = $self->{'counter'};
+		$input =~ s/t/$c/g;
+
+		# Eval.
+		$ret = eval $input;
+		if ($EVAL_ERROR) {
+			err 'Error in function.',
+				'Error', $EVAL_ERROR;
+		}
+
+	# Callback.
+	} elsif (ref $self->{'func'} eq 'CODE') {
+		$ret = $self->{'func'}->($self->{'counter'});
 	}
 
 	return $ret;
@@ -85,7 +94,8 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 
 =item * C<func>
 
- Math function. 't' is time variable.
+ Math function in string with 't' time variable.
+ Or callback with one input argument as time variable.
  Default value is '1000 * sin(t)'.
 
 =item * C<incr>

@@ -5,7 +5,7 @@ use warnings;
 # Modules.
 use English qw(-no_match_vars);
 use Error::Pure::Utils qw(clean);
-use Test::More 'tests' => 5;
+use Test::More 'tests' => 8;
 use Test::NoWarnings;
 use Video::Delay::Func;
 
@@ -30,3 +30,18 @@ eval {
 };
 is($EVAL_ERROR, "Error in function.\n", 'Error in function.');
 clean();
+
+# Test.
+$obj = Video::Delay::Func->new(
+	'func' => sub {
+		my $t = shift;
+		return $t;
+	},
+	'incr' => 1,
+);
+$ret = $obj->delay;
+is($ret, 1, "First item of callback with 't' function with incerement '1'.");
+$ret = $obj->delay;
+is($ret, 2, "Second item of callback with 't' function with increment '1'.");
+$ret = $obj->delay;
+is($ret, 3, "Third item of callback with 't' function with increment '1'.");

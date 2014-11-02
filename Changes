@@ -6,6 +6,7 @@
  - Add tests.
 
  [Video::Delay::Func]
+ - Add callback for 'func' parameter.
  - Add tests.
  - Improve error message.
 
