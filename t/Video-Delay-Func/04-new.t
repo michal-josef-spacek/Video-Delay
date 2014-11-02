@@ -5,7 +5,7 @@ use warnings;
 # Modules.
 use English qw(-no_match_vars);
 use Error::Pure::Utils qw(clean);
-use Test::More 'tests' => 4;
+use Test::More 'tests' => 5;
 use Test::NoWarnings;
 use Video::Delay::Func;
 
@@ -29,3 +29,13 @@ clean();
 # Test.
 my $obj = Video::Delay::Func->new;
 isa_ok($obj, 'Video::Delay::Func');
+
+# Test.
+eval {
+	Video::Delay::Func->new(
+		'func' => [],
+	);
+};
+is($EVAL_ERROR, "Parameter 'func' must be scalar or code.\n",
+	"Parameter 'func' must be scalar or code.");
+clean();

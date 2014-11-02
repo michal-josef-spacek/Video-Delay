@@ -8,6 +8,7 @@
  [Video::Delay::Func]
  - Add callback for 'func' parameter.
  - Add EXAMPLE section to doc.
+ - Add error check for 'func' parameter.
  - Add tests.
  - Improve error message.
 

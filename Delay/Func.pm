@@ -31,6 +31,11 @@ sub new {
 	# Counter.
 	$self->{'counter'} = 0;
 
+	# Check 'func' parameters.
+	if (ref $self->{'func'} ne '' && ref $self->{'func'} ne 'CODE') {
+		err "Parameter 'func' must be scalar or code.";
+	}
+
 	# Object.
 	return $self;
 }
@@ -57,7 +62,7 @@ sub delay {
 		}
 
 	# Callback.
-	} elsif (ref $self->{'func'} eq 'CODE') {
+	} else {
 		$ret = $self->{'func'}->($self->{'counter'});
 	}
 
@@ -115,6 +120,7 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 =head1 ERRORS
 
  new():
+         Parameter 'func' must be scalar or code.
          From Class::Utils::set_params():
                  Unknown parameter '%s'.
 
