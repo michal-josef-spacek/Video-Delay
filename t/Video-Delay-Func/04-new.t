@@ -5,7 +5,7 @@ use warnings;
 # Modules.
 use English qw(-no_match_vars);
 use Error::Pure::Utils qw(clean);
-use Test::More 'tests' => 5;
+use Test::More 'tests' => 6;
 use Test::NoWarnings;
 use Video::Delay::Func;
 
@@ -29,6 +29,8 @@ clean();
 # Test.
 my $obj = Video::Delay::Func->new;
 isa_ok($obj, 'Video::Delay::Func');
+my $ret = $obj->delay;
+is($ret, 99.8334166468282, '1000 * sin(0.1)');
 
 # Test.
 eval {

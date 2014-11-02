@@ -20,7 +20,10 @@ sub new {
 	my $self = bless {}, $class;
 
 	# Math function.
-	$self->{'func'} = '1000 * sin(t)';
+	$self->{'func'} = sub {
+		my $t = shift;
+		return 1000 * sin($t);
+	};
 
 	# Counter increment.
 	$self->{'incr'} = 0.1;
@@ -101,7 +104,11 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 
  Math function in string with 't' time variable.
  Or callback with one input argument as time variable.
- Default value is '1000 * sin(t)'.
+ Default value is reference to subroutine:
+   sub {
+     my $t = shift;
+     return 1000 * sin($t);
+   };
 
 =item * C<incr>
 

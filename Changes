@@ -11,6 +11,7 @@
  - Add error check for 'func' parameter.
  - Add tests.
  - Improve error message.
+ - Rewrite default value of 'func' to subroutine reference.
 
 0.02 2014-10-31T08:04:17+01:00
  - Add README file.
