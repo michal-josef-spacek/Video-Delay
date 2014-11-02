@@ -31,6 +31,8 @@ t/Video-Delay-Const/00-use.t
 t/Video-Delay-Const/01-version.t
 t/Video-Delay-Const/02-pod_coverage.t
 t/Video-Delay-Const/03-pod.t
+t/Video-Delay-Const/04-new.t
+t/Video-Delay-Const/05-delay.t
 t/Video-Delay-Func/00-use.t
 t/Video-Delay-Func/01-version.t
 t/Video-Delay-Func/02-pod_coverage.t
