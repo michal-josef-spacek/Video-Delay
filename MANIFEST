@@ -25,6 +25,8 @@ t/Video-Delay-Array/00-use.t
 t/Video-Delay-Array/01-version.t
 t/Video-Delay-Array/02-pod_coverage.t
 t/Video-Delay-Array/03-pod.t
+t/Video-Delay-Array/04-new.t
+t/Video-Delay-Array/05-delay.t
 t/Video-Delay-Const/00-use.t
 t/Video-Delay-Const/01-version.t
 t/Video-Delay-Const/02-pod_coverage.t

@@ -1,4 +1,6 @@
 0.03
+ [Video::Delay::Array]
+ - Add tests.
 
 0.02 2014-10-31T08:04:17+01:00
  - Add README file.
