@@ -8,4 +8,4 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($Video::Delay::Array::VERSION, 0.03, 'Version.');
+is($Video::Delay::Array::VERSION, 0.04, 'Version.');
