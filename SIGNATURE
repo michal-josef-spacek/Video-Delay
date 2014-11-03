@@ -14,15 +14,15 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 e24729dda824bc3287038c45224d56c18a1afe02 Changes
-SHA1 bdcb110f4cd18716675ef63877993487db5775fd Delay.pm
-SHA1 e46b804217e28e2db51c0389c1993468b7089367 Delay/Array.pm
-SHA1 449ad48a803acd7aa3c860b2edb24c4a715609b5 Delay/Const.pm
-SHA1 1776f16d75048a8d59151dd69da8f2cd9bc3445f Delay/Func.pm
+SHA1 2d0b34e7255bc4417dd273dd2283300db4f28bc1 Changes
+SHA1 7747060dbb2101c6435ca7b7ca2f1ad7a8a4fc59 Delay.pm
+SHA1 13e5c35a286bf9e33df431461e53da9510aae701 Delay/Array.pm
+SHA1 972c7d721bfff475d2e72d1081de9834b7e5572c Delay/Const.pm
+SHA1 62bf67c36f690bc6f40726272fde39e0bcbfc194 Delay/Func.pm
 SHA1 20da84a9de04e36340ee636da706091e9440b391 LICENSE
 SHA1 911b2c6462a0a7ba3b50bb16feec55ec811a2eb9 MANIFEST
-SHA1 c3ab9539045aad36fd78e66c01369228af398de2 META.yml
-SHA1 eb85e947a3a62452b70d7f4e4fde4a403075d2d8 Makefile.PL
+SHA1 8b20d49cc2c740b7aaf3defd79643b249bdbebbd META.yml
+SHA1 d3530ee8a5037005d92c1ded1a16eebf77079142 Makefile.PL
 SHA1 917c53ce40d574a35220101bc4e5a4227b312867 README
 SHA1 169579eee5085f2d9f098f2c4f9e84e20e91d732 examples/ex1.pl
 SHA1 fe77a37a7ef766045791b60206d3b406756c87eb examples/ex2.pl
@@ -38,35 +38,35 @@ SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.p
 SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
 SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
 SHA1 1029d0ca977fccd0db9813aaa0115a05b0d490ff t/Video-Delay-Array/00-use.t
-SHA1 ab170aaf615abceaf82e1c8b25dea77754ab3e50 t/Video-Delay-Array/01-version.t
+SHA1 8bd5bf8fff2dc82b48d8096a39f00fbe6721005a t/Video-Delay-Array/01-version.t
 SHA1 99e6c854a5de98f25e77ffbe1ef2249005b55d3d t/Video-Delay-Array/02-pod_coverage.t
 SHA1 c78c55e48c6b6e4fe4478ce9bc029cbcf3ce4a99 t/Video-Delay-Array/03-pod.t
 SHA1 a39f182ea98819334bb133549936c51e531f8df0 t/Video-Delay-Array/04-new.t
 SHA1 5b50df56b4baccf00389b665f5a3d79cf90a0373 t/Video-Delay-Array/05-delay.t
 SHA1 e4c7ce5d2d2412aeb8ff00eb902cdd8f5ddd7809 t/Video-Delay-Const/00-use.t
-SHA1 ad951d7d58ff1e2db5c7424d9efb3ac7e3507716 t/Video-Delay-Const/01-version.t
+SHA1 4fe0ccbd472296b235eacd045b19ab4876b957f0 t/Video-Delay-Const/01-version.t
 SHA1 e858744d7f5232ae41436cc64a0a19e9f0f2a4b1 t/Video-Delay-Const/02-pod_coverage.t
 SHA1 c0b6af3494e0d9cac7065ef701d5ba0f09950b4e t/Video-Delay-Const/03-pod.t
 SHA1 6bce5dd07d0dfc6871716e0491d4515ebffee019 t/Video-Delay-Const/04-new.t
 SHA1 bdac89c5f12b5db2d3bb812afdf7584bcbec3e8b t/Video-Delay-Const/05-delay.t
 SHA1 c7cc75007b9bad2fdef530df27f91ad77bd037ad t/Video-Delay-Func/00-use.t
-SHA1 46c98948ee27bbad2a8adc6423e2f4f3559a4cfb t/Video-Delay-Func/01-version.t
+SHA1 c42196f1de1cfc8f07aa6184dbb9d640ae04d83a t/Video-Delay-Func/01-version.t
 SHA1 3bfd1e9ae19d12801839eed391e1e2695ed36ac7 t/Video-Delay-Func/02-pod_coverage.t
 SHA1 1d7ad579f238e46b97da8a1436dbfaeb5f8bd0db t/Video-Delay-Func/03-pod.t
-SHA1 bce65ff781cb9129f25a5f56b1f686ad3ac7ecaa t/Video-Delay-Func/04-new.t
+SHA1 3a3916978456c8eecfdc354270f246d1302bb875 t/Video-Delay-Func/04-new.t
 SHA1 078decf19a4897937e2f984fdd8945adc4c1bc15 t/Video-Delay-Func/05-delay.t
 SHA1 42ee615ff563d3e86de869674ea42df894284d7c t/Video-Delay/00-use.t
-SHA1 e2a1dd4fb33b4e6e015a7d89cef8a4b8d3b53b50 t/Video-Delay/01-version.t
+SHA1 1ce1ac8418de2f623cc95f36ca92e63c35567293 t/Video-Delay/01-version.t
 SHA1 2c7f3f8fd6a9056b7ad169f06434f0440a1f82ce t/Video-Delay/02-pod_coverage.t
 SHA1 9b8c23bdf7e13b8618e053e10d5b1e61c08b0851 t/Video-Delay/03-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJUVyDYAAoJEAwa+cf4dLBaxNUIANUv3G+7mY/BF+uyeiL5F3K1
-Epfif+FYyRt3iLaO6EaF69i6WdV0hs8sy2ErVnObhQpb8cwmgOXxkVdL4SHqmX1l
-Nu07aGnzWhnXcLyMGLOKU/1KI3FsXzE28+m1PU1LjbMMDlVCJabTXUp7FLUj33Ih
-hkhrfTPspWSGwM8Vu/VpVFRfYWA+FpBYwEm/bie6sPlAk24XHrLhu+TYbD8C4sEp
-3A8AsAVKRO8/skypWEShuU75p909Gfibqjozq8lsm5HQZ0rv/3hhfC5Ax3Lsb29q
-arYZpaaJ5wCa1aLJZyNYnn3nvOlcTPAov/8Fl+9BvPopFPHrxYtrhNV34cJmNMw=
-=wxok
+iQEcBAEBAgAGBQJUV21MAAoJEAwa+cf4dLBaulEIAIHrgNOEUc+4biPMzNa9iHbn
+J3izqfoj3N1VBVW5Rz7cpUEcSM/VhtYO7lxkvq94gj8q4/c7WuUW7ZgIoZSJxo4/
+ZlofN3ugmQlJsS7XChvbrhUgF7D3KErmLP5OPWJ9ZpIRHbRjGjyGT/ACuuqWA2ZP
+b7tEpzxU1Xp9T5wdYNtpsbnaFVU3t8/PKZUrHWZKxTjjMYgZyW2xYPBQrsNgfBdx
+cnrX/U/1EzEgNE8r8A5FbeBeDqMfxS/bbwApEcxvi3ySCJaSZrOml4/I7qXgoDaQ
+MT1gJMC4Dk1yoG6fM1xdceUujMqnSc31vi9FxbGQzraKegFhL3uU+ismtvAv1MM=
+=VU5w
 -----END PGP SIGNATURE-----
