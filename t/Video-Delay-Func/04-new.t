@@ -30,7 +30,8 @@ clean();
 my $obj = Video::Delay::Func->new;
 isa_ok($obj, 'Video::Delay::Func');
 my $ret = $obj->delay;
-is($ret, 99.8334166468282, '1000 * sin(0.1)');
+my $right_ret = 1000 * sin(0.1);
+is($ret, $right_ret, '1000 * sin(0.1)');
 
 # Test.
 eval {
