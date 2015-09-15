@@ -110,8 +110,13 @@ L<Class::Utils>.
 
 =head1 SEE ALSO
 
-L<Video::Delay::Array>,
-L<Video::Delay::Func>.
+=over
+
+=item L<Video::Delay>
+
+Perl classes for delays between frames generation.
+
+=back
 
 =head1 REPOSITORY
 

@@ -21,9 +21,21 @@ __END__
 
 =head1 SEE ALSO
 
-L<Video::Delay::Array>,
-L<Video::Delay::Const>,
-L<Video::Delay::Func>.
+=over
+
+=item L<Video::Delay::Array>
+
+Video::Delay class for predefined list of delays.
+
+=item L<Video::Delay::Const>
+
+Video::Delay class for constant delay.
+
+=item L<Video::Delay::Func>
+
+Video::Delay class for delays defined by math function.
+
+=back
 
 =head1 REPOSITORY
 

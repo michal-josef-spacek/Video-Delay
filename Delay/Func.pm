@@ -196,8 +196,13 @@ L<Error::Pure>.
 
 =head1 SEE ALSO
 
-L<Video::Delay::Array>,
-L<Video::Delay::Const>.
+=over
+
+=item L<Video::Delay>
+
+Perl classes for delays between frames generation.
+
+=back
 
 =head1 REPOSITORY
 
