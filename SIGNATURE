@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.70.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,59 +14,59 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 2d0b34e7255bc4417dd273dd2283300db4f28bc1 Changes
-SHA1 7747060dbb2101c6435ca7b7ca2f1ad7a8a4fc59 Delay.pm
-SHA1 13e5c35a286bf9e33df431461e53da9510aae701 Delay/Array.pm
-SHA1 972c7d721bfff475d2e72d1081de9834b7e5572c Delay/Const.pm
-SHA1 62bf67c36f690bc6f40726272fde39e0bcbfc194 Delay/Func.pm
-SHA1 20da84a9de04e36340ee636da706091e9440b391 LICENSE
+SHA1 a5798ac399fa66d82b19619bfc0dda1c99295647 Changes
+SHA1 fa5fbda02b11331d05ea62b433d8a029ca3a1e39 Delay.pm
+SHA1 7e92c24cdaedac0edcf147dbbb5d2f62b09c3cb5 Delay/Array.pm
+SHA1 643971289bc513f068a00ffaf3481827210d8c29 Delay/Const.pm
+SHA1 fd230c036f4916a28a5f57f1d67ad82f11b5083e Delay/Func.pm
+SHA1 59eb82858eb4fad4d198101c284fbf4254443437 LICENSE
 SHA1 911b2c6462a0a7ba3b50bb16feec55ec811a2eb9 MANIFEST
-SHA1 8b20d49cc2c740b7aaf3defd79643b249bdbebbd META.yml
-SHA1 d3530ee8a5037005d92c1ded1a16eebf77079142 Makefile.PL
-SHA1 917c53ce40d574a35220101bc4e5a4227b312867 README
+SHA1 2c92aba422a02ce1d093016c55a486e783f04fa4 META.yml
+SHA1 e5576e9ae82eebbee5ef959166512793c415ea0e Makefile.PL
+SHA1 dabbbc1a4f0e06b57b856cc1451c2e70101addb2 README
 SHA1 169579eee5085f2d9f098f2c4f9e84e20e91d732 examples/ex1.pl
 SHA1 fe77a37a7ef766045791b60206d3b406756c87eb examples/ex2.pl
 SHA1 5d7f1337df15998936aa3f63e462710ba23c6c03 examples/ex3.pl
 SHA1 85913415eb667c8a5d3f6caa93afcf1c9781c881 examples/ex4.pl
-SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
-SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
-SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
-SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
-SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
-SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
+SHA1 fe220f215f645500ce8f14ff5e19d9a28692af56 inc/Module/Install/Base.pm
+SHA1 b56ed8e42c600e08007d152cf0b1438a7c3b7f6e inc/Module/Install/Can.pm
+SHA1 99c531a17a67ce5250df2ae151cc48c80d914cde inc/Module/Install/Fetch.pm
+SHA1 76efdca3603159e0ae0e18f19fe72a0211a69529 inc/Module/Install/Makefile.pm
+SHA1 2e33e87882d60db3913da6284dd5295e5315e18a inc/Module/Install/Metadata.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
-SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
+SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 1029d0ca977fccd0db9813aaa0115a05b0d490ff t/Video-Delay-Array/00-use.t
-SHA1 8bd5bf8fff2dc82b48d8096a39f00fbe6721005a t/Video-Delay-Array/01-version.t
+SHA1 87c950b26a4eedec2ec33ea851d4b2c74b408551 t/Video-Delay-Array/01-version.t
 SHA1 99e6c854a5de98f25e77ffbe1ef2249005b55d3d t/Video-Delay-Array/02-pod_coverage.t
 SHA1 c78c55e48c6b6e4fe4478ce9bc029cbcf3ce4a99 t/Video-Delay-Array/03-pod.t
 SHA1 a39f182ea98819334bb133549936c51e531f8df0 t/Video-Delay-Array/04-new.t
 SHA1 5b50df56b4baccf00389b665f5a3d79cf90a0373 t/Video-Delay-Array/05-delay.t
 SHA1 e4c7ce5d2d2412aeb8ff00eb902cdd8f5ddd7809 t/Video-Delay-Const/00-use.t
-SHA1 4fe0ccbd472296b235eacd045b19ab4876b957f0 t/Video-Delay-Const/01-version.t
+SHA1 ec9dc29c60931c249169b7b91349ef36cdd33fec t/Video-Delay-Const/01-version.t
 SHA1 e858744d7f5232ae41436cc64a0a19e9f0f2a4b1 t/Video-Delay-Const/02-pod_coverage.t
 SHA1 c0b6af3494e0d9cac7065ef701d5ba0f09950b4e t/Video-Delay-Const/03-pod.t
 SHA1 6bce5dd07d0dfc6871716e0491d4515ebffee019 t/Video-Delay-Const/04-new.t
 SHA1 bdac89c5f12b5db2d3bb812afdf7584bcbec3e8b t/Video-Delay-Const/05-delay.t
 SHA1 c7cc75007b9bad2fdef530df27f91ad77bd037ad t/Video-Delay-Func/00-use.t
-SHA1 c42196f1de1cfc8f07aa6184dbb9d640ae04d83a t/Video-Delay-Func/01-version.t
+SHA1 957f3b08840e8f0af698d195dfaf8ef764212df6 t/Video-Delay-Func/01-version.t
 SHA1 3bfd1e9ae19d12801839eed391e1e2695ed36ac7 t/Video-Delay-Func/02-pod_coverage.t
 SHA1 1d7ad579f238e46b97da8a1436dbfaeb5f8bd0db t/Video-Delay-Func/03-pod.t
 SHA1 3a3916978456c8eecfdc354270f246d1302bb875 t/Video-Delay-Func/04-new.t
 SHA1 078decf19a4897937e2f984fdd8945adc4c1bc15 t/Video-Delay-Func/05-delay.t
 SHA1 42ee615ff563d3e86de869674ea42df894284d7c t/Video-Delay/00-use.t
-SHA1 1ce1ac8418de2f623cc95f36ca92e63c35567293 t/Video-Delay/01-version.t
+SHA1 7d6761fc6d1c7b33e8a37d08acae346a8911aa86 t/Video-Delay/01-version.t
 SHA1 2c7f3f8fd6a9056b7ad169f06434f0440a1f82ce t/Video-Delay/02-pod_coverage.t
 SHA1 9b8c23bdf7e13b8618e053e10d5b1e61c08b0851 t/Video-Delay/03-pod.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUV21MAAoJEAwa+cf4dLBaulEIAIHrgNOEUc+4biPMzNa9iHbn
-J3izqfoj3N1VBVW5Rz7cpUEcSM/VhtYO7lxkvq94gj8q4/c7WuUW7ZgIoZSJxo4/
-ZlofN3ugmQlJsS7XChvbrhUgF7D3KErmLP5OPWJ9ZpIRHbRjGjyGT/ACuuqWA2ZP
-b7tEpzxU1Xp9T5wdYNtpsbnaFVU3t8/PKZUrHWZKxTjjMYgZyW2xYPBQrsNgfBdx
-cnrX/U/1EzEgNE8r8A5FbeBeDqMfxS/bbwApEcxvi3ySCJaSZrOml4/I7qXgoDaQ
-MT1gJMC4Dk1yoG6fM1xdceUujMqnSc31vi9FxbGQzraKegFhL3uU+ismtvAv1MM=
-=VU5w
+iQEcBAEBAgAGBQJV+HHgAAoJEJe+XXKaIuTlTYgH/37PBDW9itcMslMGKCHzx6xN
+AjEegMgz86mX+5e3+CiDq7gBoJM91sKEBYgI+MLyi5RkfeNBzO4TWecvAU7xmUHt
+iUxRv8M1AuYS44JmJi3/c2+5uYe//nXEvlkEfh5/7M0tvpDvXRHDPldBazO3BfnJ
+gfk+w9EVRQa+9ckH474G9F8AiiuUH32yU6GMP1IZ4vEv83Gog4IGJjjtK4t/46aK
+KRiWQFsDsnNeKagTekdYYR+H+QLWPfpjdDxgbqnR3SVPYirfegtyLUinfil0aog6
+Uv4maxXQMdMf3eac8X8qJE0Gb4KGm/ZcrckrKo3v6mDu613k2uXe1kN1I3ygKvI=
+=Y1gM
 -----END PGP SIGNATURE-----
