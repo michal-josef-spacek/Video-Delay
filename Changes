@@ -1,4 +1,6 @@
 0.05
+ [Common]
+ - Update Module::Install to 1.16 version.
 
 0.04 2014-11-03T12:55:54+01:00
  [Video::Delay::Func]
