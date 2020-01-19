@@ -199,7 +199,7 @@ Perl classes for delays between frames generation.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Video-Delay>
+L<https://github.com/michal-josef-spacek/Video-Delay>
 
 =head1 AUTHOR
 
