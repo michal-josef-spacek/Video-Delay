@@ -1,15 +1,12 @@
 package Video::Delay::Func;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use English qw(-no_match_vars);
 use Error::Pure qw(err);
 
-# Version.
 our $VERSION = 0.07;
 
 # Constructor.
@@ -137,11 +134,9 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Video::Delay::Func;
 
  # Object.
@@ -165,11 +160,9 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Video::Delay::Func;
 
  # Object.

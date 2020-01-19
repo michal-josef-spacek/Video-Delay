@@ -1,13 +1,10 @@
 package Video::Delay::Array;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 
-# Version.
 our $VERSION = 0.07;
 
 # Constructor.
@@ -108,11 +105,9 @@ Video::Delay::Array - Video::Delay class for predefined list of delays.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Video::Delay::Array;
 
  # Object.

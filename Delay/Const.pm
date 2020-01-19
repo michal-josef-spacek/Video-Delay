@@ -1,13 +1,10 @@
 package Video::Delay::Const;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 
-# Version.
 our $VERSION = 0.07;
 
 # Constructor.
@@ -82,11 +79,9 @@ Video::Delay::Const - Video::Delay class for constant delay.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Video::Delay::Const;
 
  # Object.
