@@ -84,6 +84,7 @@ Video::Delay::Func - Video::Delay class for delays defined by math function.
 =head1 SYNOPSIS
 
  use Video::Delay::Func;
+
  my $obj = Video::Delay::Func->new(%parameters);
  my $delay = $obj->delay;
 
